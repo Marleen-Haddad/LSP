@@ -10,6 +10,5 @@ namespace EmployeeLib.Interfaces
         public string LastName { get; set; }
         public decimal Salary { get; set; }
         public void CalculatePerHourRate(int rank);
-        public void GeneratePerformanceReview();
     }
 }

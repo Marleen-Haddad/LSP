@@ -1,8 +1,9 @@
-﻿using System;
+﻿using EmployeeLib.Interfaces;
+using System;
 
 namespace EmployeeLib
 {
-    public class Manager : Employee
+    public class Manager : EmployeeWithManager
     {
         public override void CalculatePerHourRate(int rank)
         {
